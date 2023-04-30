@@ -16,9 +16,9 @@ img{
   
 }
 @keyframes example {
-  0%   {left:0px; top:0px;}
-  25%  { left:40%; top:-230px;}
-  50%  { left:75%; top:120px;}
-  75%  { right:30px; top:413px;}
-  100% {left:0; top:-230px;}
+  0%   {filter: invert(40%) sepia(80%) saturate(1300%) hue-rotate(87deg) brightness(100%);left:0px; top:0px;}
+  25%  {filter: invert(30%) sepia(90%) saturate(1200%) hue-rotate(87deg) brightness(110%); left:40%; top:-230px;}
+  50%  { filter: invert(20%) sepia(73%) saturate(1350%) hue-rotate(87deg) brightness(90%);left:75%; top:120px;}
+  75%  {filter: invert(42%) sepia(50%) saturate(1000%) hue-rotate(87deg) brightness(115%); right:30px; top:357px;}
+  100% {filter: invert(70%) sepia(41%) saturate(1100%) hue-rotate(87deg) brightness(120%);left:0; top:-230px;}
 }
