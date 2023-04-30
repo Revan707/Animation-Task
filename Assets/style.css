@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    
+}
+img{
+    width: 150px;
+    height: 100px;
+    margin: 15% ;
+    position: relative;
+    animation: example 10s 1s infinite alternate;
+  
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  { left:40%; top:-230px;}
+  50%  { left:75%; top:120px;}
+  75%  { right:30px; top:413px;}
+  100% {left:0; top:-230px;}
+}
